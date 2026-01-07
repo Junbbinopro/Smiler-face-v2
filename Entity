@@ -76,7 +76,7 @@ local entity = spawner.Create({
 entity:SetCallback("OnSpawned", function()
     setPinkLighting()
     local s = Instance.new("Sound", workspace)
-    s.SoundId = "rbxassetid://111272255398192"
+    s.SoundId = "rbxassetid://9125713501"
     s.Volume = 4.5
     s:Play()
 end)
